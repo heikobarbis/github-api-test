@@ -1,0 +1,10 @@
+name: Dependency Review from extern
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use action from another repo
+      uses: heikobaris/github-actions/.github/workflows/dependency-review.yml@main
