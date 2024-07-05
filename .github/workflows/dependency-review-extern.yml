@@ -3,4 +3,4 @@ on: [push]
 
 jobs:
   dependency-review:
-      uses: heikobaris/github-actions/.github/workflows/dependency-review.yml@main
+      uses: heikobarbis/github-actions/.github/workflows/dependency-review.yml@main
